@@ -10,9 +10,8 @@ body {
 }
 
 header {
-  height: 20vh;
+  height: 50PX;
   display: table;
-  position: fixed;
 }
 
 header .left, header .right {
@@ -36,7 +35,7 @@ header .left {
 }
 
 #verse_left {
-  width: 35vw;
+  width: 30vw;
   overflow-x: hidden;
   height: 100%;
   position: absolute;
@@ -48,7 +47,7 @@ header .left {
 #verse_right {
   margin-left: 0;
   margin-right: 0;
-  width: 65vw;
+  width: 70vw;
   overflow-x: hidden;
   height: 100%;
   position: absolute;
@@ -62,20 +61,15 @@ section::-webkit-scrollbar{
 }
 
 section main {
-  padding-top: 15vh;
   position: absolute;
 }
 
 video {
-  width: 90%;
-}
-
-#verse_right_2 video {
-  width: 80%;
+  width: 100%;
 }
 
 #verse_right_4 video {
-  width: 50%;
+  width: 80%;
 }
 
 
@@ -130,6 +124,5 @@ main div {
 }
 
 main div:first-child {
-  padding-top: 18px;
   border-top: 0;
 }
